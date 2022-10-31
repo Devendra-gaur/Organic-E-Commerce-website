@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link {
+    margin: 0px 10px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-link:hover {
+    color: black;
+    letter-spacing: 1px;
+}
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid darkorange;
+    margin-right: -40px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 45%;
+    outline: none;
+    border: none;
+    background: darkorange;
+    border-radius: 60px;
+    color: white;
+    font-weight: 700;
+}
+.main {
+    background: url(./images/Organic.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.heading {
+    text-align: center;
+    padding-top: 250px;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    background-color: darkorange;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover {
+    transform: scale(0.95);
+}
+.icon-img {
+    border-radius: 50%;
+    height: 30%;
+}
+h1{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px -1px 25px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 25px -3px rgba(0,0,0,0.75);
+box-shadow: 0px -1px 25px -3px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.apple {
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/apple.png)no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
+}
+.news {
+    background-color: black;
+    color: white;
+}
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -15px;
+    border: 2px solid white;
+    font-weight: 600;
+    margin-top: 18px;
+}
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p {
+    margin: 0;
+}
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.fab:hover {
+ color: orange;
+ transform: scale(1.1);
+ transition: 0.2s ease;
+}
